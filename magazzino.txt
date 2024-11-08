@@ -1,0 +1,37 @@
+{
+"archivio" :
+[
+{
+    "nome":"olio",
+    "categoria":"alimentari",
+    "prezzo":6,
+    "quantita": 100,
+    "link":"prodotto.html",
+    "testo_link": "olio exstra vergine d'oliva",
+    "img": "https://www.oleificiosalamida.it/wp-content/uploads/2015/10/nBottiglia050L-FruttatoLeggero-500x600.jpg"
+},
+
+{
+    "nome":"pasta",
+    "categoria":"alimentari",
+    "prezzo":1,
+    "quantita": 150,
+   "link":"pasta.html",
+    "testo_link": "Pasta artigianale",
+    "img": "https://www.oleificiosalamida.it/wp-content/uploads/2015/10/nBottiglia050L-FruttatoLeggero-500x600.jpg"
+},
+
+{
+    "nome":"vino",
+    "categoria":"alimentari",
+    "prezzo":1,
+    "quantita": 300,
+    "link":"vino.html",
+    "testo_link": "vino italiano",
+    "img": "https://www.oleificiosalamida.it/wp-content/uploads/2015/10/nBottiglia050L-FruttatoLeggero-500x600.jpg"
+
+
+}
+]
+}
+

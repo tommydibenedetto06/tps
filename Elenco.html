@@ -1,0 +1,45 @@
+<html>
+<body>
+
+<h2></h2>
+<input id="b1" type="button" onclick="LetturaFile();" value="leggi i dati dal file">
+<TABLE id="t1">
+    
+
+<script>
+function LetturaFile()
+{
+let xhr = new XMLHttpRequest();
+
+xhr.open("GET", "http://localhost/magazzino.txt",true); //si definisce l'apertura di un file di testo presente nell'host in locale
+xhr.send(); // si invia la richiesta al server
+
+ xhr.onload = function() {
+
+const oggetto = JSON.parse(xhr.responseText); // si crea un oggetto che è un vettore  di persone
+
+str="<tr><th> Nome </th> <th> Categoria </th> <th>PrezzoAcquisto</th> <th>Quantita</th> <th>totale</th> <th>dettaglio</th><th>Immagine</th></tr>";
+
+
+let totale = 0;
+for(i=0;i<oggetto.archivio.length; i++) // si genera dinamicamente una taella in cui si inseriscono tutti dati presenti nel vettore di oggetti  
+{
+totale  = oggetto.archivio[i].prezzo * oggetto.archivio[i].quantita;
+str = str + "<tr><td>"+oggetto.archivio[i].nome
+    +"</td><td>" + oggetto.archivio[i].categoria
+    + "</td><td>"+ oggetto.archivio[i].prezzo
+    + "</td><td>"+oggetto.archivio[i].quantita
+    + "</td><td>"+oggetto.archivio[i].prezzo*oggetto.archivio[i].quantita
+    + "<td><a href=" + oggetto.archivio[i].link + ">" + oggetto.archivio[i].testo_link + "</a></td>"
+    + "<td><img src="+oggetto.archivio[i].img + " width='300' height='300'><td></tr>";
+}
+str = str + "</table>";
+document.getElementById("t1").innerHTML = str;
+}
+document.getElementById("b1").disabled = true; // disabilitazione del pulsante 
+
+}
+</script>
+
+</body>
+</html>
