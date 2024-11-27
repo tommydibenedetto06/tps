@@ -18,7 +18,7 @@
     "quantita": 150,
    "link":"pasta.html",
     "testo_link": "Pasta artigianale",
-    "img": "https://www.oleificiosalamida.it/wp-content/uploads/2015/10/nBottiglia050L-FruttatoLeggero-500x600.jpg"
+    "img": "https://www.viaggiando-italia.it/wp-content/uploads/2018/08/pasta-gragnano.jpg"
 },
 
 {
