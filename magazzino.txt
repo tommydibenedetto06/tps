@@ -6,7 +6,7 @@
     "categoria":"alimentari",
     "prezzo":6,
     "quantita": 100,
-    "link":"prodotto.html",
+    "link":"olio.html",
     "testo_link": "olio exstra vergine d'oliva",
     "img": "https://www.oleificiosalamida.it/wp-content/uploads/2015/10/nBottiglia050L-FruttatoLeggero-500x600.jpg"
 },
