@@ -28,7 +28,7 @@
     "quantita": 300,
     "link":"vino.html",
     "testo_link": "vino italiano",
-    "img": "https://www.oleificiosalamida.it/wp-content/uploads/2015/10/nBottiglia050L-FruttatoLeggero-500x600.jpg"
+    "img": "https://salumieprodottitipici.b-cdn.net/333-thickbox_default/vino-frizzante-rosso-dei-castelli-romani-750cl.jpg"
 
 
 }
